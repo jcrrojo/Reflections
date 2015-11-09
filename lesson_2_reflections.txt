@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+When I initialize a git repository, git installs the basic structure for version control, without changing anything and without controlling anything. I need to do this so git can activate version control where it was my working directory and now also a repository, when I want to order the first and successive commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area is not like working directory because it does no contain the files of work. Staging area is not like repository because it does not contain the version control. But it is important because is an intermediary inter work directory and repository and it permit us to know what files are pending for control.
