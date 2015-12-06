@@ -10,3 +10,6 @@ The forks are used to clone a repository on your own account at GitHub. The clon
 What is the benefit of having a copy of the last known state of the remote stored locally?
 I can update my local repository when you need it, even without Internet connection
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I could collaborate using collaborative tools such as Evernote. The sequence would be: I write a text file, such as a program, I share in Evernote; anyone of the team can modify it. If I accept the change, I transfer it to my text file, I keep another name and version number.
+The easierst thing would be to keep my sequence of text files with their versions. The hardest thing would be to achieve efficiency in the collaborative task, because we would not have a system to detect and resolve conflicts.
