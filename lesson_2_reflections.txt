@@ -3,3 +3,19 @@ When I initialize a git repository, git installs the basic structure for version
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is not like working directory because it does no contain the files of work. Staging area is not like repository because it does not contain the version control. But it is important because is an intermediary inter work directory and repository and it permit us to know what files are pending for control.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can use the staging area with git add to notify a change which could be important to control. I can see what changes are pending to control and decide what to do. If I need it, I can compare any longer controlled version or a work file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+The branches would be useful when I wanted to produce variants of a program or when you want to develop a parallel process to the main process
+
+How do the diagrams help you visualize the branch structure?
+The diagrams help visualize the organization commits to branches and see if any commit that may fall outside of the structure
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The merger of branches results in the fusion of work done in the two branches, which are interspersed Commits sorted by date. Now there are possibilities of major conflicts, so it is very important to have a clear diagram on the work done in the two branches before being merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merger could create unwanted problems and choose or mix options contradictory orders. Better a manual intervention to resolve conflicts
+
