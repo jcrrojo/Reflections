@@ -13,3 +13,6 @@ I can update my local repository when you need it, even without Internet connect
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I could collaborate using collaborative tools such as Evernote. The sequence would be: I write a text file, such as a program, I share in Evernote; anyone of the team can modify it. If I accept the change, I transfer it to my text file, I keep another name and version number.
 The easierst thing would be to keep my sequence of text files with their versions. The hardest thing would be to achieve efficiency in the collaborative task, because we would not have a system to detect and resolve conflicts.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+It is convenient to make changes to a different branch when changes may conflict with the master branch. The benefit is greatest when we work with other people, because in that case the potential for conflict multiply and must be controlled.
